@@ -1,0 +1,421 @@
+
+body {
+	margin: 0;
+	background: #f5f5f9;
+	font-family: "Helvetica Neue", Helvetica;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+}
+
+.clear {
+	clear: both;
+	float: none;
+}
+
+.section_info div:nth-child(1) {
+	font-size: 18px;
+	padding: 10px;
+}
+.section_info div:nth-child(2) {
+	font-size: 16px;
+	padding: 10px;
+	padding-top: 0;
+}
+.section_header {
+	background-color: #b6c1dd;
+	color: #222;
+	font-size: 16px;
+	padding: 5px;
+	border: 1px #425c9e solid;
+}
+.section_content {
+	padding: 10px;
+}
+
+table#area_list {
+	width: 100%;
+}
+table#area_list tr {
+	height: 40px;
+	line-height: 40px;
+}
+table#area_list td {
+	text-align: center;
+	font-size: 14px;
+	width: 14.285%;
+	background-color: #b6c1dd;
+	border: 1px #425c9e solid;
+}
+table#area_list .curr {
+	background-color: #425c9e;
+	color: white;
+}
+
+ul.drug_stores {
+	width: 100%;
+	list-style: disc inside;
+}
+ul.drug_stores li {
+	list-style: disc inside;
+	font-size: 16px;
+	border-bottom: 1px #888 dashed;
+	padding: 10px;
+}
+ul.drug_stores li:last-child {
+	border: none;
+}
+
+.search_drugstore {
+	padding: 10px;
+}
+.search_field {
+	width: 200px;
+	font-size: 14px;
+}
+.search_button {
+}
+.result_tips {
+	padding: 10px;
+	font-size: 14px;
+	border-bottom: 1px #888 solid;
+}
+
+#maps {
+	background-color: gray;
+	width: auto;
+	height: 160px;
+	margin: 10px;
+}
+table.maps_operation {
+	width: 100%;
+}
+table.maps_operation td {
+	border: #f5f5f9 10px solid;
+	border-top: 0;
+}
+#location_info,
+#my_location,
+#drugstore_info {
+	background-color: #425c9e;
+	color: white;
+	font-size: 16px;
+	height: 36px;
+	line-height: 36px;
+	text-align: center;
+}
+
+.drugstore_info_section {
+	font-size: 16px;
+	color: #222;
+	padding: 8px;
+	border-bottom: 1px #888 dashed;
+}
+.drugstore_info_section:last-child {
+	border: none;
+}
+.drugstore_info_section .info_name {
+	font-weight: bold;
+}
+.drugstore_info_section .tel_num,
+.drugstore_info_section .bus_num,
+.nearby_locations {
+	color: blue;
+}
+
+.nearby_search {
+	padding: 10px;
+	border-bottom: 1px #222 solid;
+}
+.nearby_search span {
+	color: blue;
+}
+.nearby_result {
+	padding: 10px;
+	border-bottom: 1px #999 solid;
+}
+.nearby_result span {
+	color: red;
+}
+
+ul#nearby_hospitals {
+	position: relative;
+	width: 100%;
+}
+ul#nearby_drugstores li {
+	font-size: 16px;
+	width: 100%;
+	border-bottom: 1px #425c9e dashed;
+}
+ul#nearby_drugstores li .content {
+	padding: 10px;
+}
+ul#nearby_drugstores li:last-child {
+	border: none;
+}
+ul#nearby_drugstores .name {
+	color: blue;
+}
+.relocate {
+	color: blue;
+}
+
+ul.drugs_list {
+	width: 100%;
+	list-style: disc inside;
+}
+ul.drugs_list li {
+	list-style: disc inside;
+	font-size: 16px;
+	padding: 10px;
+	border-bottom: 1px #888 dashed;
+}
+ul.drugs_list li:last-child {
+	border: none;
+}
+
+.search_drug {
+	padding: 10px;
+}
+
+.drug_title {
+	border: 1px #aaa solid;
+	border-bottom: 0;
+	margin: 5px;
+	margin-bottom: 0;
+	padding: 10px;
+}
+
+#top_news {
+	padding: 10px;
+	padding-bottom: 0;
+	position: relative;
+}
+#top_news img {
+	width: 100%;
+	height: 160px;
+	background: red;
+}
+#top_news div {
+	text-align: center;
+	background-color: rgba(0, 0, 0, 0.5);
+	color: white;
+	padding: 5px 10px;
+	position: absolute;
+	bottom: 0;
+	left: 10px;
+	right: 10px;
+}
+
+ul.drugs_info {
+	width: 100%;
+	list-style: disc inside;
+}
+ul.drugs_info li {
+	list-style: disc inside;
+	font-size: 16px;
+	padding: 10px;
+	border-bottom: 1px #888 dashed;
+	
+}
+ul.drugs_info li:last-child {
+	border: none;
+}
+
+ul.drugs_detail {
+	margin: 5px;
+	margin-top: 0;
+}
+ul.drugs_detail li {
+	font-size: 16px;
+	border-bottom: 1px #888 dashed;
+	padding: 10px;
+}
+ul.drugs_detail li:last-child {
+	border: none;
+}
+
+.show_more {
+	margin: 10px 10%;
+	width: 80%;
+	height: 30px;
+	font-size: 14px;
+}
+
+#pages {
+	margin-top: 10px;
+	text-align: center;
+}
+.page_prev {
+	background: url("../images/page_prev.png") no-repeat center;
+	background-size: 100%;
+	border: none;
+	width: 57px;
+	height: 29px;
+	color: #425c9e;
+	font-size: 14px;
+	padding-left: 5px;
+	padding-right: 0;
+}
+.page_prev_disabled {
+	background: url("../images/page_prev_disabled.png") no-repeat center;
+	background-size: 100%;
+	border: none;
+	width: 57px;
+	height: 29px;
+	color: #888;
+	font-size: 14px;
+	padding-left: 5px;
+	padding-right: 0;
+}
+.page_next {
+	background: url("../images/page_next.png") no-repeat center;
+	background-size: 100%;
+	border: none;
+	width: 57px;
+	height: 29px;
+	color: #425c9e;
+	font-size: 14px;
+	padding-left: 0;
+	padding-right: 5px;
+}
+.page_next_disabled {
+	background: url("../images/page_next_disabled.png") no-repeat center;
+	background-size: 100%;
+	border: none;
+	width: 57px;
+	height: 29px;
+	color: #888;
+	font-size: 14px;
+	padding-left: 0;
+	padding-right: 5px;
+}
+
+
+.detail_title {
+	background: #f3f5f9;
+	line-height: 40px;
+	font-size: 20px;
+	color: #425c9e;
+	text-align: center;
+	font-weight: bold;
+}
+
+ul#tabs {
+	float: left;
+	width: 100%;
+	height: 36px;
+	list-style-type: none;
+	background-color: #eaeff4;
+	border-bottom: solid 3px #425b9d;
+	border-top: solid 1px #b2c0e0;
+}
+ul#tabs li {
+	float: left;
+	position: relative;
+	display: block;
+	width: 25%;
+	height: 100%;
+}
+ul#tabs li a {
+	float: left;
+	margin: auto 0;
+	text-align: center;
+	width: 100%;
+	line-height: 40px;
+	font-size: 14px;
+	color: #555;
+}
+ul#tabs li.curr {
+	border-bottom: 3px #fc4519 solid;
+}
+ul#tabs li.curr a {
+	color: #4a6699;
+}
+
+.detail_img {
+	width: 100%;
+	padding: 0.5em 0;
+	background: #fff;
+	text-align: center;
+}
+
+
+#summary_section > div:nth-child(even),
+#detail_section > div:nth-child(even) {
+	background: #e7eaf0;
+}
+#summary_section > div,
+#detail_section > div {
+	width: 100%;
+	padding: 5px 0;
+	border-bottom: solid 1px #ccc;
+}
+#summary_section > div span,
+#detail_section > div span {
+	display: block;
+	color: #425c9e;
+	padding-left: 10px;
+	padding-right: 7px;
+}
+#summary_section > div div,
+#detail_section > div div {
+	color: #555;
+	margin: 0.5em 0;
+	padding-left: 10px;
+	padding-right: 7px;
+	word-break: break-word;
+}
+
+#price_section > section,
+#comments_section > section {
+	float: left;
+	border-bottom: 1px solid #ccc;
+	width: 100%;
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-o-box-sizing: border-box;
+	padding: 0 10px;
+}
+div > section {
+	background: #f7f8fa;
+}
+
+#price_section p:nth-child(1),
+#comments_section p:nth-child(1) {
+	width: 100%;
+	text-align: right;
+	color: #888;
+	margin-top: 5px;
+}
+#price_section p:nth-child(3),
+#price_section p:nth-child(5),
+#comments_section p:nth-child(3),
+#comments_section p:nth-child(5) {
+	text-align: right;
+}
+#price_section p,
+#comments_section p {
+	color: #555;
+	font-size: 14px;
+}
+#price_section > section > p,
+#comments_section > section > p {
+	width: 50%;
+	float: left;
+	line-height: 2em;
+	height: 2em;
+	overflow: hidden;
+	margin: 0;
+}
+#comments_section p:nth-child(6) {
+	width: 100%;
+}
+#price_section > section > p:nth-last-child(1),
+#comments_section > section > p:nth-last-child(1) {
+	width: 100%;
+	text-align: left;
+	margin-bottom: 5px;
+	height: auto;
+	font-size: 16px;
+}
